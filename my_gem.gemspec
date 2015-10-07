@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["marco2yw@hotmail.com"]
 
   spec.summary       = %q{First Gem.}
-  spec.description   = %q{TODO: This is the first GEM file that I had created.}
+  spec.description   = %q{TODO: Optional}
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
   spec.license       = "MIT"
 
@@ -30,6 +30,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.10"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec"
-  spec.add_runtime_dependency "[my_gem]", [[0.1.0]]
-  spec.add_runtime_dependency "activesupport", [">= 4.0"]
+
 end
